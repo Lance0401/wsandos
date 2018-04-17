@@ -1,0 +1,430 @@
+/*头部*/
+
+.header-top {
+	background: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.header-top i {
+	margin-right: 12px;
+}
+
+.header-top .h-info {
+	line-height: 40px;
+}
+
+
+/*头部导航条*/
+
+.navbar {
+	margin: 2em 0;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.navbar-default {
+	background-color: #fff;
+	border: none;
+}
+
+.navbar-nav>li {
+	text-align: center;
+}
+
+.navbar-search {
+	display: inline-block;
+	position: relative;
+	height: 44px;
+	text-align: left;
+	margin-top: 8px;
+	margin-left: 1em;
+	min-width: 239px;
+	color: #cfcfcf;
+	border: 1px solid #cfcfcf;
+}
+
+.navbar-search .search-input {
+	height: 42px;
+	max-width: 200px;
+	padding: 10px;
+	border: none;
+	outline: none;
+}
+
+.navbar-search .search-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 44px;
+	height: 44px;
+	font-size: 1.3em;
+	background: none;
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #5c5d5d;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+	color: #fff;
+	background-color: #000;
+}
+
+.navbar-search .form-control {
+	border-radius: 0px;
+}
+
+
+/*banner*/
+
+.banner.container-fluid {
+	padding: 0;
+}
+
+.carousel-control {
+	opacity: 0;
+	transition: all 1s;
+}
+
+.carousel-control:hover {
+	opacity: 1;
+}
+
+
+/*context*/
+
+.context {
+	padding-top: 4em;
+	padding-bottom: 4em;
+	background: #f6f6f6;
+}
+
+
+/*show*/
+
+.show {
+	margin-bottom: 4em;
+}
+
+.show .Phoneonly {
+	display: none;
+}
+
+.show .container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.show .item {
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	display: block;
+	cursor: pointer;
+}
+
+.show .item:hover .box {
+	background: #5bc0de;
+	color: #fff;
+}
+
+.show .item:hover .btn {
+	background: #fff;
+	color: #5bc0de;
+}
+
+.show .item:hover span {
+	border-color: #5bc0de transparent transparent transparent;
+}
+
+.show .item:nth-child(2):hover .box {
+	background: #ec971f;
+	color: #fff;
+}
+
+.show .item:nth-child(2):hover .btn {
+	background: #fff;
+	color: #ec971f;
+}
+
+.show .item:nth-child(2):hover span {
+	border-color: transparent transparent #ec971f transparent;
+}
+
+.show .item:nth-child(3):hover .box {
+	background: #449d44;
+	color: #fff;
+}
+
+.show .item:nth-child(3):hover .btn {
+	background: #fff;
+	color: #449d44;
+}
+
+.show .item:nth-child(3):hover span {
+	border-color: #449d44 transparent transparent transparent;
+}
+
+.show .item .box {
+	padding: 80px 15px 30px;
+	font-size: 1.3em;
+	letter-spacing: 1px;
+	line-height: 1.7em;
+	text-align: center;
+	background: #fff;
+}
+
+.show .item .box .btn {
+	border-radius: 0px;
+	width: 84px;
+	height: 31px;
+	font-size: 0.7em;
+}
+
+.show .item .box a {
+	margin-top: 10px;
+	font-size: 0.9em;
+}
+
+.show .item .arrow {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	border-style: solid dashed dashed dashed;
+	border-width: 22px;
+}
+
+.show .item span {
+	top: 48%;
+	left: 45%;
+	border-color: #fff transparent transparent transparent;
+}
+
+.show .item span.second {
+	top: 45%;
+	border-color: transparent transparent #fff transparent;
+}
+
+
+/*-------------------------product------------------------------*/
+
+.product {}
+
+.product .container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.product h2 {
+	margin-bottom: 40px;
+	font-size: 2em;
+	color: #242424;
+	text-align: center;
+}
+
+.product .item {
+	margin-top: 20px;
+	position: relative;
+	background: #fff;
+}
+
+.product .item a:hover{
+	text-decoration: none;
+}
+
+.product .item img {
+	width: 100%;
+	height: auto;
+}
+
+.product .item .desc {
+	padding: 10px 20px;
+}
+
+.product .item label {
+	color: #989898;
+	text-align: start;
+	font-size: 0.5em;
+}
+
+.product .item h3 {
+	overflow: hidden;
+	height: 24px;
+	line-height: 24px;
+	margin: 5px 0 10px;
+	font-size: 1e, ;
+	color: #313131;
+	/*font-weight: 700;*/
+}
+
+.product .item p {
+	overflow: hidden;
+	height: 60px;
+	line-height: 1.5em;
+	font-size: 0.7em;
+	color: #989898;
+}
+
+.product .item .desc .arrow {
+	float: right;
+	color: #989898;
+	padding-right: 30px;
+	margin-bottom: 10px;
+	background: url(../images/arrow.png) right 5px no-repeat;
+}
+
+
+/*.product .item hover 效果*/
+
+.product .item:hover {
+	box-shadow: 0px 3px 20px #ccc;
+}
+
+.product .item:hover .arrow{
+	color: #0055a2;
+	background: url(../images/arrow.png) right -14px no-repeat;
+}
+.product .item:hover h3{
+	color: #0055a2;
+}
+
+/*-------------------------footer----------------------*/
+footer{
+	background: #2e2e2e;
+	color: #2e2e2e;
+	padding: 4em;
+}
+
+footer dt{
+	margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 700;
+    border-top: 1px solid #434343;
+}
+footer dl dd{
+	 margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+footer a{
+	color: #999999;
+}
+
+footer a:hover{
+	text-decoration: none;
+	 color: #fff;
+}
+
+footer .copyright{
+	color: #999999;
+	margin-top: 3em;
+}
+
+
+footer .copyright span{
+	color: #999999;
+	padding: 0 7px 0 10px;
+}
+
+footer .copyright .contact label{
+	font-size: 0.7em;
+}
+
+footer .copyright .contact p{
+	font-size: 1em;
+    font-weight: 700;
+}
+/*-------------------回到顶部按钮----------------*/
+.gototop {
+    display: none;
+    -webkit-animation: hide 350ms ease-out forwards 1;
+    animation: hide 350ms ease-out forwards 1;
+    padding: 13px 15px;
+    border: 0;
+    text-align: center;
+    background-color: #D5D6E2;
+    color: #494A5F;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    cursor: pointer;
+    -webkit-transition: background-color 100ms ease-in-out;
+    transition: background-color 100ms ease-in-out;
+}
+
+.isvisible {
+    -webkit-animation: show 1s ease-out forwards 1;
+    animation: show 1s ease-out forwards 1;
+}
+
+/*响应式更改*/
+
+@media (min-width: 992px) {
+	
+}
+
+@media (min-width: 1200px) {
+	/*大于1200的设备*/
+	.show .item .box {
+		width: 400px;
+		height: 300px;
+	}
+	.show .container {
+		min-width: 1200px;
+	}
+	.product .container {
+		min-width: 1200px;
+	}
+	.product .item {
+		padding-left: 0px;
+		padding-right: 0px;
+		max-width: 380px;
+		background: #fff;
+		margin-left: 30px;
+	}
+	.product .item:nth-child(2) {
+		margin-left: 0px;
+	}
+}
+
+@media (max-width: 1199) {
+	/* <=1199的设备 */
+	.show .item .box {
+		width: 400px;
+		height: 300px;
+	}
+	.show .container {
+		min-width: 1200px;
+	}
+}
+
+@media (max-width: 991px) {
+	.navbar-search {
+		min-width: 230px;
+	}
+	.show .PConly {
+		display: none;
+	}
+	.show .Phoneonly {
+		display: block;
+	}
+	.show img {
+		padding: 1px;
+	}
+}
+
+@media (max-width: 768px) {
+	
+}
