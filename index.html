@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>一匠科技公司官网改响应式</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"></link>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/gototop.css"/>
+		<!--[if lt IE 9]>
+ 		 <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+ 		 <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<header>
+			<div class="header-top">
+				<div class="container">
+					<div class="row">
+						<div class="h-info col-sm-6 col-xs-6"><i class="fa fa-envelope-o"></i>info@example.com</div>
+						<div class="h-info col-sm-6 col-xs-6"><i class="fa fa-phone"></i>123 1100 1000</div>
+					</div>
+				</div>
+			</div>
+			<!--头部导航条-->
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<a class="pull-left" href="#"><img src="images/logo.png" alt="" /></a>
+					<!-- Brand and toggle get grouped for better mobile display -->
+
+					<div class="navbar-right" role="navigation">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+     					   	<span class="sr-only">Toggle navigation</span>
+     						<span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+     						<span class="icon-bar"></span>
+    						</button>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li class="active">
+									<a href="#">首页 <span class="sr-only">(current)</span></a>
+								</li>
+								<li>
+									<a href="#">案例</a>
+								</li>
+								<li>
+									<a href="#">新闻资讯</a>
+								</li>
+								<li>
+									<a href="#">关于我们</a>
+								</li>
+								<li>
+									<a href="#">联系我们</a>
+								</li>
+								<li>
+									<a href="#">人才招聘</a>
+								</li>
+								<li>
+									<form class="navbar-search">
+										<div class="form-group">
+											<input type="text" class="search-input" placeholder="搜索">
+										</div>
+										<button type="submit" class="fa fa-search search-btn"></button>
+									</form>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- /.container-fluid -->
+			</nav>
+		</header>
+		<!--header end-->
+		<!--banner start-->
+		<section class="banner clearfix container-fluid">
+			<div id="myCarousel" class="carousel slide" data-ride='carousel'>
+				<!-- 轮播（Carousel）指标 -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+				</ol>
+				<!-- 轮播（Carousel）项目 -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<a href=""><img src="images/banner01.jpg" alt="First slide"></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="images/banner02.jpg" alt="Second slide"></a>
+					</div>
+				</div>
+				<!-- 轮播（Carousel）导航 -->
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+					<span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">
+					<span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</section>
+		<!--banner end-->
+		<!--context start-->
+		<section class="context">
+			<!--context end-->
+			<!--show-->
+			<section class="show">
+				<!--当屏幕尺寸大于 768px时-->
+				<div class="container PConly">
+					<!--item-->
+					<div class="col-md-4 item">
+						<div class="box">
+							<p>最高的目标不是巅峰，<br /> 而是贴近客户；
+								<br /> 只有口碑，才是永恒的追求。
+								<br />
+							</p>
+							<a href="" class="btn btn-info">了解我们</a>
+						</div>
+						<img src="images/show01.jpg" class="img-responsive" />
+						<span class="arrow"></span>
+					</div>
+					<!--item-->
+					<div class="col-md-4 item">
+						<img src="images/show02.jpg" class="img-responsive" />
+						<div class="box">
+							<p>最高的目标不是巅峰，<br /> 而是贴近客户；
+								<br /> 只有口碑，才是永恒的追求。
+								<br />
+							</p>
+							<a href="" class="btn btn-warning">了解研发</a>
+						</div>
+						<span class="arrow second"></span>
+					</div>
+					<!--item-->
+					<div class="col-md-4 item">
+						<div class="box">
+							<p>最高的目标不是巅峰，<br /> 而是贴近客户；
+								<br /> 只有口碑，才是永恒的追求。
+								<br />
+							</p>
+							<a href="" class="btn btn-success">了解就业</a>
+						</div>
+						<img src="images/show03.jpg" class="img-responsive" />
+						<span class="arrow"></span>
+					</div>
+				</div>
+				<!--小屏幕时-->
+				<div class="container Phoneonly">
+					<!--item-->
+					<div class="col-md-4 item">
+						<div class="box col-sm-6">
+							<p>最高的目标不是巅峰，<br /> 而是贴近客户；
+								<br /> 只有口碑，才是永恒的追求。
+								<br />
+							</p>
+							<a href="" class="btn btn-info">了解我们</a>
+						</div>
+						<div class="col-sm-6 imgbox">
+							<img src="images/show01.jpg" class="img-responsive center-block" />
+						</div>
+					</div>
+
+					<!--item-->
+					<div class="col-md-4 item">
+						<div class="box col-sm-6 ">
+							<p>最高的目标不是巅峰，<br /> 而是贴近客户；
+								<br /> 只有口碑，才是永恒的追求。
+								<br />
+							</p>
+							<a href="" class="btn btn-warning">了解研发</a>
+						</div>
+						<div class="col-sm-6 imgbox">
+							<img src="images/show02.jpg" class="img-responsive center-block" />
+						</div>
+					</div>
+					<!--item-->
+					<div class="col-md-4 item">
+						<div class="box col-sm-6">
+							<p>最高的目标不是巅峰，<br /> 而是贴近客户；
+								<br /> 只有口碑，才是永恒的追求。
+								<br />
+							</p>
+							<a href="" class="btn btn-success">了解就业</a>
+						</div>
+						<div class="col-sm-6 imgbox">
+							<img src="images/show03.jpg" class="img-responsive center-block" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--产品介绍-->
+			<section class="product">
+				<div class="container">
+					<h2>软件研发</h2>
+					<!--item-->
+					<div class="col-md-4 item clearfix">
+						<a href="">
+							<img src="images/product01.png" class="" />
+							<div class="desc">
+								<label>2018-02-12</label>
+								<h3>本地配送系统</h3>
+								<p> 鲜惠家本地配送即美菜商城开放平台。 鲜惠家欢迎惠州有实力的合格供应商入驻鲜惠家商城， 共同满足中小餐厅的采购需求</p>
+								<a href="" class="arrow">详情</a>
+							</div>
+						</a>
+					</div>
+					<!--item-->
+					<div class="col-md-4 item clearfix">
+						<a href="">
+							<img src="images/product02.png" class="" />
+							<div class="desc">
+								<label>2018-02-12</label>
+								<h3>本地配送系统</h3>
+								<p> 鲜惠家本地配送即美菜商城开放平台。 鲜惠家欢迎惠州有实力的合格供应商入驻鲜惠家商城， 共同满足中小餐厅的采购需求</p>
+								<a href="" class="arrow">详情</a>
+							</div>
+						</a>
+					</div>
+					<!--item-->
+					<div class="col-md-4 item clearfix">
+						<a href="">
+							<img src="images/product03.png" class="" />
+							<div class="desc">
+								<label>2018-02-12</label>
+								<h3>本地配送系统</h3>
+								<p> 鲜惠家本地配送即美菜商城开放平台。 鲜惠家欢迎惠州有实力的合格供应商入驻鲜惠家商城， 共同满足中小餐厅的采购需求</p>
+								<a href="" class="arrow">详情</a>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+
+		</section>
+		<!--footer start-->
+		<footer>
+			<div class="container">
+				<div class="col-md-3 col-sm-6">
+					<dl>
+						<dt>企业</dt>
+						<dd>
+							<a href="">关于我们</a>
+						</dd>
+						<dd>
+							<a href="">案例</a>
+						</dd>
+						<dd>
+							<a href="">新闻资讯</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<dl>
+						<dt>合作伙伴</dt>
+						<dd>
+							<a href="">关于我们</a>
+						</dd>
+						<dd>
+							<a href="">案例</a>
+						</dd>
+						<dd>
+							<a href="">新闻资讯</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<dl>
+						<dt>沟通</dt>
+						<dd>
+							<a href="">关于我们</a>
+						</dd>
+						<dd>
+							<a href="">案例</a>
+						</dd>
+						<dd>
+							<a href="">新闻资讯</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<dl>
+						<dt>链接</dt>
+						<dd>
+							<a href="">关于我们</a>
+						</dd>
+						<dd>
+							<a href="">案例</a>
+						</dd>
+						<dd>
+							<a href="">新闻资讯</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="container copyright">
+				<img src="images/logo-gray.png" class="pull-left"/>
+				<div class="info pull-left">
+					<a href="">法律声明</a><span>|</span>
+					<a>粤ICP备号</a>
+					<p>Copyright 2016 惠州市一匠科技有限公司 版权所有</p>
+				</div>
+				<div class="contact pull-right">
+					<label>业务联系电话</label>
+					<p>11012341234</p>
+				</div>
+			</div>
+		</footer>
+		<!--footer end-->
+		<button class="gototop"><span>返回顶部</span></button>
+		<!--引入js文件-->
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js "></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.gototop.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
